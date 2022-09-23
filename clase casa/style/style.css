@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Spice&family=Passions+Conflict&display=swap');
+*{
+    font-family: Georgia, 'durkin', serif;
+    font-size: 25px;
+}
+header{
+    width: 100%;
+    justify-content: end;
+    display: flex;
+}
+body{
+    width: auto;
+    height: auto;
+    background-color: #331827;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.logo{
+    width: 130px;
+    height: 90px;
+    display: flex;
+}
+.container{
+    width: 100%;
+    height: 500%;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 35px;
+}
+.tarjeta{
+    justify-content: center;
+    display: flex;
+    height: 250px;
+    padding: 30px;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fotos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tarjeta1{
+    background-image: url(../img/cutro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 70%;
+}
+.tarjeta2{
+    background-image: url(../img/cutro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 70%;
+}
+.tarjeta3{
+    background-image: url(../img/cutro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 70%;
+}
+.foto1{
+    background-image: url(../img/descarga.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.foto2{
+    background-image: url(../img/dos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.foto3{
+    background-image: url(../img/tre.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.prb{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: rgba(49, 2, 58, 0.39);
+}
+footer{
+    background-color: #120d14;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h4{
+    font-size: 22px;
+}
